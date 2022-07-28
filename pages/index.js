@@ -18,12 +18,12 @@ import Paragraph from "../components/paragraph";
 import NextLink from "next/link";
 import { ChevronRightIcon } from "@chakra-ui/icons";
 import { BioSection, BioYear } from "../components/bio";
-import {
-  IoLogoTwitter,
-  IoLogoInstagram,
-  IoLogoGithub,
-  IoLogoLinkedin,
-} from 'react-icons/io5'
+// import {
+//   IoLogoTwitter,
+//   IoLogoInstagram,
+//   IoLogoGithub,
+//   IoLogoLinkedin,
+// } from 'react-icons/io5'
 import { StrictMode } from "react";
 import ReactDOM from 'react-dom'
 
@@ -161,46 +161,46 @@ const Page = () => {
         <List>
           <ListItem>
             <Link href="https://github.com/KoushikAD1234" target='_blank'>
-            <Button
+            {/* <Button
               variant="ghost"
               colorScheme="teal"
               leftIcon={<Icon as={IoLogoGithub} />}
               >
                 @KoushikAD
-              </Button>
+              </Button> */}
             </Link>
           </ListItem>
           <ListItem>
             <Link href="https://twitter.com/Koushik_ADC" target='_blank'>
-            <Button
+            {/* <Button
               variant="ghost"
               colorScheme="teal"
               leftIcon={<Icon as={IoLogoTwitter} />}
               >
                 @Koushik_ADC
-              </Button>
+              </Button> */}
             </Link>
           </ListItem>
           <ListItem>
             <Link href="https://www.linkedin.com/in/koushik-chakraborty-bb20551b8/" target='_blank'>
-            <Button
+            {/* <Button
               variant="ghost"
               colorScheme="teal"
               leftIcon={<Icon as={IoLogoLinkedin} />}
               >
                 @Koushik_chakraborty
-              </Button>
+              </Button> */}
             </Link>
           </ListItem>
           <ListItem>
             <Link href="https://www.instagram.com/koushik_chkrbrty/?hl=en" target='_blank'>
-            <Button
+            {/* <Button
               variant="ghost"
               colorScheme="teal"
               leftIcon={<Icon as={IoLogoInstagram} />}
               >
                 @koushik_chkrbrty
-              </Button>
+              </Button> */}
             </Link>
           </ListItem>
         </List>

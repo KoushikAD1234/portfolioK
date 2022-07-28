@@ -16,7 +16,6 @@ import {
 import { HamburgerIcon } from "@chakra-ui/icons";
 import ThemeToggleButton from "./theme-toggle-button";
 import Logo from "./logo";
-import { IoLogoGithub } from "react-icons/io5";
 
 const LinkItem = ({ href, path, children }) => {
   const active = path === href;
